@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../assets/imgs/bg2.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+header {
+    height: 100px;
+    background: #fff;
+    border-bottom: 4px solid #117050;
+}
+
+.header {
+    margin: auto;
+    width: 1440px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.container {
+    flex: 1;
+    background: #fff;
+    width: 1440px;
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slider--width {
+    height: 100%;
+    display: grid;
+    transition: all ease 0.7s;
+}
+
+.slider--items {
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+}
+
+
